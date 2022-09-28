@@ -1,0 +1,25 @@
+.background-five {
+  background-color: #e9eef5;
+  height: 300px;
+  padding-top: 60px;
+  font-family: "cairo";
+  p {
+    white-space: pre-line;
+    color: #999;
+    font-size: 18px;
+  }
+  h1 {
+    margin: 0;
+    font-weight: 200;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+}
+.talk {
+  background-color: #59ab6e;
+  color: #fff;
+  float: right;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}

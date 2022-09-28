@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap");
+.html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: "cairo";
+}
+* {
+  box-sizing: border-box;
+}
+
+.info {
+  background-color: #212934;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  color: #999;
+}
+.email {
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  &:hover {
+    color: #fff;
+  }
+}
+.phone {
+  cursor: pointer;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  &:hover {
+    color: #fff;
+  }
+}
+.brands i {
+  color: rgba(255, 255, 255, 0.774);
+  padding: 10px;
+  transition: 0.4s all ease;
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+  }
+}
+/*************** Nav *************/
+.navBar {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 2;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.font {
+  width: 40%;
+  margin-left: 40px;
+}
+.center {
+  margin-left: 95px;
+  text-transform: capitalize;
+  font-size: 19px;
+}
+.center a:hover {
+  color: #5eae73;
+}
+.solid i {
+  margin: 10px;
+  &:hover {
+    color: #5eae73;
+  }
+}
